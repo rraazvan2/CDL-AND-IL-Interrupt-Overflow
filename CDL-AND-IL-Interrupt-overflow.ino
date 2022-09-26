@@ -86,8 +86,6 @@ void setup()
 
         cli(); //disable interrupt
 
-        //timer1 = 64910; // preload timer 65535 - 16MHz/256/100Hz i.e 10mS
-
         TCCR1B = 0;
         TCNT1 = timer1; // preload timer
         TCCR1B |= (1 << CS12) | (1 << CS10); // 1024 prescaler
