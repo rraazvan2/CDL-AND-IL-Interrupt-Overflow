@@ -23,10 +23,9 @@
 /*--->START Variables Boolean<---*/
 
 volatile bool bflag1 = OFF;
-volatile bool bflag2 = OFF;
+volatile bool bPushButton1 = OFF;
+volatile bool bPushButton2 = OFF;
 
-bool bPushButton1 = OFF;
-bool bPushButton2 = OFF;
 bool bStateHazard = OFF;
 bool bStateButton1 = OFF;
 bool bStateButton2 = OFF;
